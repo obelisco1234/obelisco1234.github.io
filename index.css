@@ -1,0 +1,234 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:white;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 150%;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+header {
+    background-color: rgb(238, 206, 206);
+    width: 100%;
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.menu {
+    width: 900px;
+    margin: 0 auto;
+}
+
+nav {
+    float: right;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+    padding: 18px 0px;
+    float: left;
+    position: relative;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a::before {
+    display: block;
+    content: '';
+    width: 0%;
+    background-color: white;
+    height: 5px;
+    top: 0px;
+    position: absolute;
+    transition: 0.1s;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
+}
+
+.foto {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    float: left;
+    margin-left: 85px;
+    margin-top: 85px;
+}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+    padding-top: 120px;
+}
+
+h2 {
+    font-size: 200%;
+    text-align: center;
+}
+
+main div {
+    color: rgb(157, 159, 161);
+    padding-top: 100px;
+    padding-left: 500px;
+    padding-right: 20px;
+
+}
+
+h2.edu {
+    color: rgb(25, 25, 26);
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 20px;
+    font-size: 200%;
+
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+p#pedu {
+    padding-top: 20px;
+
+}
+
+p {
+    padding-left: 350px;
+    
+}
+main ul {
+    padding-left: 375px;
+}
+p span {
+    font-weight: bold;
+}
+main ul li {
+    padding-bottom: 5px;
+}
+h3 {
+    padding-left: 20px;
+    padding-top: 20px;
+    
+}
+p.logro{
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+p.letra {
+    font-style: oblique;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+textarea {
+    margin-top: 9px;
+    -webkit-box-shadow: 10px 10px 0px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 0px -4px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 0px -4px rgba(0,0,0,0.75);
+
+}
+input {
+    width: 313px;
+}
+form {
+    float: right;
+    padding-right: 270px;
+    
+}
+h2#contacto {
+    text-align: right;
+    padding-right: 311px;
+    margin-top: 20px;
+    padding-top: 80px;
+}
+text {
+    padding-left: 250px;
+    font-style: oblique;
+    
+}
+h2#adress {
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 250px;
+}
+    
+p.tele {
+    padding-top: 10px;
+    padding-left: 250px;
+    
+}
+a img {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    padding-top: 10px;
+    border-radius: 50%;
+}
+div#logo {
+    padding: 0px;
+    padding-left: 0px;
+    padding-top: 128px; 
+}
+a#telefo{
+    padding-left: 250px;
+    padding-top: 40px;
+}
+.btn {
+    color: #0099CC;
+    background: transparent;
+    border: 2px solid #0099CC;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    margin-left: 55px;
+
+}
+.btn:hover {
+    background-color: #008CBA;
+    color: white;
+}
+.btn {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+section {
+    padding-right: 350px ;
+}
+div#back {
+    padding-right: 100px;
+    padding-top: 50px;
+}
+input {
+    -webkit-box-shadow: 10px 10px 0px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 0px -4px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 0px -4px rgba(0,0,0,0.75);
+
+}
+
